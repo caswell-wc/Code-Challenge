@@ -15,23 +15,23 @@ $ composer install
 
 * Setup Homestead
 ```
-php vendor/bin/homestead make
+$ php vendor/bin/homestead make
 ```
 
 * Start up the vagrant box
 ```
-vagrant up
+$ vagrant up
 ```
 
 * SSH into vagrant
 ```
-vagrant ssh
+$ vagrant ssh
 ```
 
 * From within the vagrant box change directory and run the migration and seeder 
 ```
 $ cd ~/code
-php artisan migrate:refresh --seed
+$ php artisan migrate:refresh --seed
 ```
 
 ## The Challenge
