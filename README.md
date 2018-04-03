@@ -2,9 +2,9 @@
 
 ## Requirements
 
-[Composer](https://getcomposer.org/)
+* [Composer](https://getcomposer.org/)
 
-[Vagrant](https://www.vagrantup.com/)
+* [Vagrant](https://www.vagrantup.com/)
 
 ## Setup
 
@@ -14,14 +14,8 @@ $ composer install
 ```
 
 * Setup Homestead
-Mac / Linux:
 ```
 php vendor/bin/homestead make
-```
-
-Windows:
-```
-vendor\\bin\\homestead make
 ```
 
 * Start up the vagrant box
