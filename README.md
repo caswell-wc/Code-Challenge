@@ -40,7 +40,7 @@ This projects inlcudes a migration and seeder that will create a nested set hier
 
 ## Expectations
 
-Eloquent/Query Builder only. Do not use raw queries.
+Use Eloquent ORM for all interactions with the database. Do not use raw queries.
 
 The Update endpoint must include the ability to move a node to a new parent. If the node has child nodes, it must to also move the child nodes and adjust the Left `lft`, Right `rgt` and Level `level` accordingly.
 
