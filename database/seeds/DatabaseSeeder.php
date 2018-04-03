@@ -13,31 +13,31 @@ class DatabaseSeeder extends Seeder
     {
         DB::table('node')->insert([
             [
-                'name' => 'Root',
+                'name' => 'Jean-Luc Picard',
                 'level' => 0,
                 'lft' => 1,
                 'rgt' => 10,
             ],
             [
-                'name' => 'Child1',
+                'name' => 'Deanna Troi',
                 'level' => 1,
                 'lft' => 2,
                 'rgt' => 3,
             ],
             [
-                'name' => 'Child2',
+                'name' => 'William Riker',
                 'level' => 1,
                 'lft' => 4,
                 'rgt' => 9,
             ],
             [
-                'name' => 'Child2-1',
+                'name' => 'Data',
                 'level' => 2,
                 'lft' => 5,
                 'rgt' => 6,
             ],
             [
-                'name' => 'Child2-2',
+                'name' => 'Geordi La Forge',
                 'level' => 2,
                 'lft' => 7,
                 'rgt' => 8,

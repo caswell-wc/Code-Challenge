@@ -19,8 +19,6 @@ class Setup extends Migration
             $table->integer('level');
             $table->integer('lft');
             $table->integer('rgt');
-            $table->timestamps();
-            $table->softDeletes();
         });
     }
 
