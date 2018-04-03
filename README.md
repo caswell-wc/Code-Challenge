@@ -2,29 +2,35 @@
 
 ## Requirements
 
-Composer https://getcomposer.org/
+[Composer](https://getcomposer.org/)
 
-Vagrant https://www.vagrantup.com/
+[Vagrant](https://www.vagrantup.com/)
 
 ## Setup
 
-Clone the project and in a terminal run
-`composer install`
+* Clone the project and in a terminal run
+```
+$ composer install
+```
 
-Setup Homestead
+* Setup Homestead
 Mac / Linux:
-`php vendor/bin/homestead make`
+```
+php vendor/bin/homestead make
+```
 
 Windows:
-`vendor\\bin\\homestead make`
+```
+vendor\\bin\\homestead make
+```
 
-Start up the vagrant box
+* Start up the vagrant box
 `vagrant up`
 
-SSH into vagrant
+* SSH into vagrant
 `vagrant ssh`
 
-From within the vagrant box change directory and run the migration and seeder 
+* From within the vagrant box change directory and run the migration and seeder 
 `cd ~/code`
 `php artisan migrate:refresh --seed`
 
