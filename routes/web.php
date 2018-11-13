@@ -14,3 +14,9 @@
 $router->get('/', function () use ($router) {
     return $router->app->version();
 });
+
+$router->get('/node/{id}', 'NodeController@show');
+$router->post('/node', 'NodeController@store');
+$router->delete('/node/{id}', 'NodeController@delete');
+$router->delete('/node/{id}/save-children', 'NodeController@deleteSaveChildren');
+$router->patch('/node/{id}', 'NodeController@update');
